@@ -1,0 +1,70 @@
+/* 全局样式 */
+body {
+    background-color: #f8f9fa;
+}
+
+/* 导航栏样式 */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* 表格样式 */
+.table {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+.table th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* 卡片样式 */
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    border: none;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* 按钮样式 */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* 低库存警告样式 */
+.low-stock {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* 模态框样式 */
+.modal-content {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* 表单样式 */
+.form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .table-responsive {
+        margin: 0 -10px;
+    }
+} 
